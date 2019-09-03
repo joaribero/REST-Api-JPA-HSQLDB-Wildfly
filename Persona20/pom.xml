@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.person</groupId>
+  <artifactId>Persona20</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Persona20 Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency> 
+        <groupId>org.codehaus.jackson</groupId> 
+        <artifactId>jackson-mapper-asl</artifactId> 
+        <version>1.9.11</version> 
+    </dependency>
+    <dependency>
+	  <groupId>org.hibernate</groupId>
+	  <artifactId>hibernate-core</artifactId>
+	  <version>5.1.0.Final</version>
+	  <type>pom</type>
+	</dependency>
+	<dependency>
+	  <groupId>javax.persistence</groupId>
+	  <artifactId>persistence-api</artifactId>
+	  <version>1.0.2</version>
+	</dependency>
+	<dependency>
+	  <groupId>org.hibernate</groupId>
+	  <artifactId>hibernate-entitymanager</artifactId>
+	  <version>5.4.4.Final</version>
+	</dependency>
+	<dependency>
+	  <groupId>org.hsqldb</groupId>
+	  <artifactId>hsqldb</artifactId>
+	  <version>2.5.0</version>
+	</dependency>
+  </dependencies>
+  <build>
+    <finalName>Persona20</finalName>
+  </build>
+</project>

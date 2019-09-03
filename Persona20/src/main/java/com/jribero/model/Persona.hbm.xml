@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 25 April 2011 7:52:33 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="com.jribero.model.Persona" table="PERSONA">
+		<id name="documento" type="string">
+			<column name="documento" />
+		</id>
+		<property name="nombre" type="string">
+			<column name="nombre"/>
+		</property>
+		<property name="apellido" type="string">
+			<column name="apellido" />
+		</property>
+		<property name="edad" type="string">
+			<column name="edad" />
+		</property>
+		<property name="email" type="string">
+			<column name="email" />
+		</property>
+	</class>
+</hibernate-mapping>
